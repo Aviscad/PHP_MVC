@@ -1,10 +1,15 @@
 <?php
 require_once 'config/parameters.php';
+require_once 'config/database.php';
+require_once 'autoload.php';
+
 require_once 'controllers/ErrorController.php';
 require_once 'controllers/BienvenidoController.php';
+
 require_once 'controllers/CategoriaController.php';
 require_once 'controllers/MarcaController.php';
 require_once 'controllers/ProductoController.php';
+
 require_once 'views/layout/header.php';
 require_once 'views/layout/content.php';
 

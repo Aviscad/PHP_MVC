@@ -1,1 +1,1 @@
-<div id="central">
+<div id="container">
